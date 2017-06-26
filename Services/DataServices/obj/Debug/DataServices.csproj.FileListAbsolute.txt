@@ -1,0 +1,9 @@
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\BooksApp.Services.DataServices.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\BooksApp.Services.DataServices.pdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\BooksApp.Contracts.Models.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\BooksApp.Contracts.Models.pdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\obj\Debug\DataServices.csprojResolveAssemblyReference.cache
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\obj\Debug\BooksApp.Services.DataServices.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Services\DataServices\obj\Debug\BooksApp.Services.DataServices.pdb

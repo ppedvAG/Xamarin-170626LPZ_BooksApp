@@ -1,0 +1,13 @@
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Tests.DataServicesTests.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Tests.DataServicesTests.pdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Contracts.Models.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Services.DataServices.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\nunit.framework.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Contracts.Models.pdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\BooksApp.Services.DataServices.pdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\nunit.framework.xml
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\obj\Debug\DataServicesTests.csprojResolveAssemblyReference.cache
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\obj\Debug\BooksApp.Tests.DataServicesTests.dll
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Tests\DataServicesTests\obj\Debug\BooksApp.Tests.DataServicesTests.pdb
