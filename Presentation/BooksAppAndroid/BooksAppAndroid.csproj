@@ -75,6 +75,16 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Contracts\Models\Models.csproj">
+      <Project>{49D6B2FE-2518-4B5A-91C9-4E3ED3D41FC5}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\DataServices\DataServices.csproj">
+      <Project>{2D8F6B3E-CEB5-450E-833E-22480A672C0A}</Project>
+      <Name>DataServices</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
