@@ -12,6 +12,7 @@ using Android.Widget;
 using BooksApp.Contracts.Models;
 using System.Net;
 using Android.Graphics;
+using System.Threading.Tasks;
 
 namespace BooksAppAndroid
 {
@@ -49,23 +50,26 @@ namespace BooksAppAndroid
             title.Text = this[position].Info.Title;
             subtitle.Text = this[position].Info.Subtitle;
 
-            if (this[position]?.Info?.ImageLinks?.SmallThumbnail != null)
-            {
-                if (!imageCache.ContainsKey(this[position].Info.ImageLinks.SmallThumbnail))
+            Task.Factory.StartNew(() => {
+                if (this[position]?.Info?.ImageLinks?.SmallThumbnail != null)
                 {
-                    byte[] imageData;
-                    using (WebClient client = new WebClient())
+                    if (!imageCache.ContainsKey(this[position].Info.ImageLinks.SmallThumbnail))
                     {
-                        imageData = client.DownloadData(this[position].Info.ImageLinks.SmallThumbnail);
+                        byte[] imageData;
+                        using (WebClient client = new WebClient())
+                        {
+                            imageData = client.DownloadData(this[position].Info.ImageLinks.SmallThumbnail);
+                        }
+                        imageCache.Add(this[position].Info.ImageLinks.SmallThumbnail, BitmapFactory.DecodeByteArray(imageData, 0, imageData.Length));
                     }
-                    imageCache.Add(this[position].Info.ImageLinks.SmallThumbnail, BitmapFactory.DecodeByteArray(imageData, 0, imageData.Length));
+                    thumbnail.SetImageBitmap(imageCache[this[position].Info.ImageLinks.SmallThumbnail]);
                 }
-                thumbnail.SetImageBitmap(imageCache[this[position].Info.ImageLinks.SmallThumbnail]);
-            }
-            else // Kein Bild vorhanden
-            {
-                thumbnail.SetImageResource(Resource.Drawable.NoThumbnail);
-            }
+                else // Kein Bild vorhanden
+                {
+                    thumbnail.SetImageResource(Resource.Drawable.NoThumbnail);
+                }
+            });
+            
 
 
 
