@@ -6,6 +6,7 @@ using BooksApp.Contracts.Models;
 using System.Linq;
 using Android.Content;
 using Android.Views.InputMethods;
+using Newtonsoft.Json;
 
 namespace BooksAppAndroid
 {
@@ -32,14 +33,33 @@ namespace BooksAppAndroid
 
             buttonSearch.Click += ButtonSearch_Click;
             editTextSearchtext.KeyPress += EditTextSearchtext_KeyPress;
+            listViewBooks.ItemClick += ListViewBooks_ItemClick;
+        }
+
+        public override void OnBackPressed()
+        {
+            base.OnBackPressed();
+            //System.Environment.Exit(0);
+        }
+
+        private void ListViewBooks_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            // Toast.MakeText(this, e.Position.ToString(), ToastLength.Short).Show();
+            string json = JsonConvert.SerializeObject((listViewBooks.Adapter as BookAdapter)[e.Position]);
+
+            Intent i = new Intent(this, typeof(DetailActivity));
+            i.PutExtra("book", json);
+            StartActivity(i);
         }
 
         private void EditTextSearchtext_KeyPress(object sender, Android.Views.View.KeyEventArgs e)
         {
-            if( (e.KeyCode == Android.Views.Keycode.Enter)  && e.Event.Action == Android.Views.KeyEventActions.Up )
+            if ((e.KeyCode == Android.Views.Keycode.Enter) && e.Event.Action == Android.Views.KeyEventActions.Up)
             {
                 buttonSearch.PerformClick();
             }
+            else if (e.KeyCode == Android.Views.Keycode.Back && e.Event.Action == Android.Views.KeyEventActions.Up)
+                OnBackPressed();
         }
 
         private async void ButtonSearch_Click(object sender, System.EventArgs e)

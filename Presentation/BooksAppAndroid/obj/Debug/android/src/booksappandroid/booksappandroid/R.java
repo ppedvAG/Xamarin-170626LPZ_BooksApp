@@ -18,13 +18,28 @@ public final class R {
         public static final int BookItemImageViewThumbnail=0x7f050000;
         public static final int BookItemTextViewSubtitle=0x7f050002;
         public static final int BookItemTextViewTitle=0x7f050001;
-        public static final int buttonSearch=0x7f050004;
-        public static final int editTextSearchtext=0x7f050003;
-        public static final int listViewBooks=0x7f050005;
+        public static final int DetailButtonShop=0x7f050010;
+        public static final int DetailImageViewThumbnail=0x7f050003;
+        public static final int DetailTextViewAutor=0x7f050006;
+        public static final int DetailTextViewCategories=0x7f05000c;
+        public static final int DetailTextViewContentVersion=0x7f05000e;
+        public static final int DetailTextViewDescription=0x7f050009;
+        public static final int DetailTextViewIndustryIdentifiers=0x7f05000a;
+        public static final int DetailTextViewLanguage=0x7f05000f;
+        public static final int DetailTextViewMaturityRating=0x7f05000d;
+        public static final int DetailTextViewPageCount=0x7f05000b;
+        public static final int DetailTextViewPublishedDate=0x7f050008;
+        public static final int DetailTextViewPublisher=0x7f050007;
+        public static final int DetailTextViewSubtitle=0x7f050005;
+        public static final int DetailTextViewTitle=0x7f050004;
+        public static final int buttonSearch=0x7f050012;
+        public static final int editTextSearchtext=0x7f050011;
+        public static final int listViewBooks=0x7f050013;
     }
     public static final class layout {
         public static final int bookitem=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int detail=0x7f030001;
+        public static final int main=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

@@ -17,11 +17,12 @@ C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\r
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\drawable\icon.png
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\R.cs.flag
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\uploadflags.txt
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\layout\bookitem.xml
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\drawable\nothumbnail.png
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\layout\detail.xml
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\bin\Debug\BooksApp.Contracts.Models.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\bin\Debug\BooksApp.Services.DataServices.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\bin\Debug\BooksAppAndroid.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksApp.Contracts.Models.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksApp.Services.DataServices.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksAppAndroid.dll.mdb
-C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\layout\bookitem.xml
-C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\drawable\nothumbnail.png

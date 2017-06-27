@@ -4,7 +4,8 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="BooksAppAndroid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="BooksAppAndroid" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="DetailActivity" android:name="md5b5a61b6e834abf617226a0c661d1945b.DetailActivity" />
     <activity android:icon="@drawable/icon" android:label="BooksAppAndroid" android:name="md5b5a61b6e834abf617226a0c661d1945b.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

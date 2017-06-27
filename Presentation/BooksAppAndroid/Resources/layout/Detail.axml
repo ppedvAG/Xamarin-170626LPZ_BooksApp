@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:padding="10dp">
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:id="@+id/DetailImageViewThumbnail" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/DetailTextViewTitle"
+                android:text="---TITLE---"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/DetailTextViewSubtitle"
+                android:text="---SUBTITLE---"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---AUTOR---"
+            android:id="@+id/DetailTextViewAutor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publisher:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---PUBLISHER---"
+            android:id="@+id/DetailTextViewPublisher"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PublishedDate:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---PUBLISHEDDATE---"
+            android:id="@+id/DetailTextViewPublishedDate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---DESCRIPTION---"
+            android:id="@+id/DetailTextViewDescription"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IndustryIdentifiers:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---INDUSTRYIDENTIFIERS---"
+            android:id="@+id/DetailTextViewIndustryIdentifiers"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PageCount:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---PAGECOUNT---"
+            android:id="@+id/DetailTextViewPageCount"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---CATEGORIES---"
+            android:id="@+id/DetailTextViewCategories"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MaturityRating:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---MATURITYRATING---"
+            android:id="@+id/DetailTextViewMaturityRating"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ContentVersion:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---CONTENTVERSION---"
+            android:id="@+id/DetailTextViewContentVersion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:text="---LANGUAGE---"
+            android:id="@+id/DetailTextViewLanguage"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop"
+            android:id="@+id/DetailButtonShop" />
+    </GridLayout>
+</ScrollView>

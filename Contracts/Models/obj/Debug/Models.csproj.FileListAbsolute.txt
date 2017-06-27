@@ -2,6 +2,5 @@ C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\bin\Debug\BooksApp.Cont
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\bin\Debug\BooksApp.Contracts.Models.pdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\bin\Debug\Newtonsoft.Json.dll
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\bin\Debug\Newtonsoft.Json.xml
-C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\obj\Debug\BooksApp.Contracts.Models.dll
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Contracts\Models\obj\Debug\BooksApp.Contracts.Models.pdb
