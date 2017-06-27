@@ -31,6 +31,15 @@ namespace BooksAppAndroid
             service = new BookService();
 
             buttonSearch.Click += ButtonSearch_Click;
+            editTextSearchtext.KeyPress += EditTextSearchtext_KeyPress;
+        }
+
+        private void EditTextSearchtext_KeyPress(object sender, Android.Views.View.KeyEventArgs e)
+        {
+            if( (e.KeyCode == Android.Views.Keycode.Enter)  && e.Event.Action == Android.Views.KeyEventActions.Up )
+            {
+                buttonSearch.PerformClick();
+            }
         }
 
         private async void ButtonSearch_Click(object sender, System.EventArgs e)

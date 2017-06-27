@@ -7,7 +7,10 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:hint="Suchtext z.B. 'Xamarin'"
-        android:id="@+id/editTextSearchtext" />
+        android:id="@+id/editTextSearchtext"
+        android:singleLine="true"
+        android:soundEffectsEnabled="true"
+        android:inputType="text" />
     <Button
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
