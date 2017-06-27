@@ -1,3 +1,7 @@
+BooksAppAndroid.BookAdapter, BooksAppAndroid;md5b5a61b6e834abf617226a0c661d1945b.BookAdapter
+BooksAppAndroid.BookAdapter, BooksAppAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b5a61b6e834abf617226a0c661d1945b.BookAdapter
+BooksAppAndroid.BookAdapter;md5b5a61b6e834abf617226a0c661d1945b.BookAdapter
+booksappandroid.BookAdapter;md5b5a61b6e834abf617226a0c661d1945b.BookAdapter
 BooksAppAndroid.MainActivity, BooksAppAndroid;md5b5a61b6e834abf617226a0c661d1945b.MainActivity
 BooksAppAndroid.MainActivity, BooksAppAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5b5a61b6e834abf617226a0c661d1945b.MainActivity
 BooksAppAndroid.MainActivity;md5b5a61b6e834abf617226a0c661d1945b.MainActivity

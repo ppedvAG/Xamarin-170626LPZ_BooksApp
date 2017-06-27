@@ -23,3 +23,5 @@ C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\bin\Debug\B
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksApp.Contracts.Models.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksApp.Services.DataServices.dll.mdb
 C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\android\assets\BooksAppAndroid.dll.mdb
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\layout\bookitem.xml
+C:\Users\mz1\Desktop\170626LPZ\BooksApp\Presentation\BooksAppAndroid\obj\Debug\res\drawable\nothumbnail.png

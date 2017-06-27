@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>27.06.2017 10:02:47</xs:documentation>
+    <xs:documentation>27.06.2017 10:24:04</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16716,6 +16716,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/BookItemImageViewThumbnail" />
+            <xs:enumeration value="@id/BookItemTextViewSubtitle" />
+            <xs:enumeration value="@id/BookItemTextViewTitle" />
             <xs:enumeration value="@id/buttonSearch" />
             <xs:enumeration value="@id/editTextSearchtext" />
             <xs:enumeration value="@id/listViewBooks" />

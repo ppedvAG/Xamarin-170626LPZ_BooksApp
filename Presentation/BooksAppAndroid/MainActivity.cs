@@ -51,8 +51,10 @@ namespace BooksAppAndroid
 
             #region Logik
             BookQuery result = await service.GetBooksAsync(editTextSearchtext.Text);
-            string[] data = result.Books.Select(x => x.Info.Title).ToArray();
-            listViewBooks.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+            //string[] data = result.Books.Select(x => x.Info.Title).ToArray();
+            //listViewBooks.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+
+            listViewBooks.Adapter = new BookAdapter(this, result.Books);
             #endregion
 
             dlg.Dismiss();
