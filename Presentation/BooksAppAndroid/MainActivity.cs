@@ -4,6 +4,8 @@ using Android.OS;
 using BooksApp.Services.DataServices;
 using BooksApp.Contracts.Models;
 using System.Linq;
+using Android.Content;
+using Android.Views.InputMethods;
 
 namespace BooksAppAndroid
 {
@@ -33,11 +35,24 @@ namespace BooksAppAndroid
 
         private async void ButtonSearch_Click(object sender, System.EventArgs e)
         {
+            InputMethodManager imm =  (InputMethodManager)GetSystemService(Context.InputMethodService);
+            imm.HideSoftInputFromWindow(editTextSearchtext.WindowToken, 0);
+
+            ProgressDialog dlg = ProgressDialog.Show(this, "Es passiert etwas !", "Suche nach Bücher ...");
+
+            #region Logik
             BookQuery result = await service.GetBooksAsync(editTextSearchtext.Text);
-
             string[] data = result.Books.Select(x => x.Info.Title).ToArray();
-
             listViewBooks.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+            #endregion
+
+            dlg.Dismiss();
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            buttonSearch.Click -= ButtonSearch_Click;
         }
     }
 }
